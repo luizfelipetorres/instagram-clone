@@ -1,10 +1,18 @@
-# Oi, tudo bem? Chegou aqui através do curso, certo? 🙃
+# 🚀  Instagram UI clone 🚀
 
-Esse é o repositório da nossa aula de Flexbox, na qual vamos fazer a interface de login do Instagram! 
+Esse repositório foi feito para praticar as propriedades de CSS flex box.
 
-### Os requisitos são:
+## Objetivos
 
-* [HTML básico](https://www.w3schools.com/html/)
-* [CSS básico](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- Clonar a tela de login do Instagram 
+- Utilizar flex box
+- Fazer um layout responsivo 
 
-## 🚀 Let's code! 🚀
+## :tv: Resultado :tv:
+
+<details>
+    <summary>Clique aqui para visualizar</summary>
+
+
+<img src="./demo.gif" width=100%>
+</details>
