@@ -15,12 +15,11 @@ body {
     justify-content: center;
     margin: 0;
     padding: 0;
-
 }
 
 .flex-container {
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: start;
     width: 60%;
     height: 100vmin;
@@ -45,7 +44,9 @@ body {
     width: 50%;
 }
 
-.section-login > *{
+.section-login>* {
+    padding: 20px;
+    margin: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -55,8 +56,6 @@ body {
 .section-login_login,
 .section-login_switch {
     border: 1px solid rgb(200, 200, 200);
-    margin: 10px;
-    padding: 10px;
     background-color: white;
 }
 
@@ -97,16 +96,59 @@ body {
     color: #0095f6;
 }
 
-.section-login_get-app{
+.section-login_get-app {
     flex-direction: column;
+    margin: 10px;
     justify-content: center;
     align-items: center;
+    font-weight: bold;
 }
 
-#get-app-img{
+.section-login_get-app * {
+    margin: 5px;
+    padding: 5px;
+}
+
+#get-app-img {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
+.img-download {
+    width: 10rem;
+    height: 3rem;
+    background-size: cover;
+}
 
+.img-download:nth-child(1) {
+    background-image: url('./img/apple-button.png');
+}
+
+.img-download:nth-child(2) {
+    background-image: url('/img/googleplay-button.png');
+}
+
+/*Media */
+@media(max-width: 1024px) {
+    .flex-container {
+        width: 90%;
+    }
+}
+
+@media(max-width: 650px) {
+    .flex-container {
+        width: 90%;
+        justify-content: center;
+    }
+
+    .section-login {
+        width: 100%;
+        max-width: 350px;
+        justify-content: start;
+    }
+
+    .img-phone {
+        display: none;
+    }
+}
