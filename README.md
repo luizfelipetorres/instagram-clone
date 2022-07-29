@@ -1,6 +1,6 @@
 # 🚀  Instagram UI clone 🚀
 
-Esse repositório foi feito para praticar as propriedades de CSS flex box.
+Esse repositório foi feito para praticar as propriedades de CSS flex box, desenvolvendo um clone da interface de login do Instagram. Projeto proposto pelo Santander Bootcamp Fullstack Developer da Digital Innovation One.  
 
 ## Objetivos
 
