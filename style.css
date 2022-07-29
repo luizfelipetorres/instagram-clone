@@ -126,7 +126,7 @@ body {
 }
 
 .img-download:nth-child(2) {
-    background-image: url('/img/googleplay-button.png');
+    background-image: url('./img/googleplay-button.png');
 }
 
 /*Media */
